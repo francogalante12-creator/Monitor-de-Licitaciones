@@ -1,0 +1,213 @@
+# ---------------------------------------------------------------------------
+# Monitor de licitaciones - configuracion
+#
+# Las credenciales NO van aca. Van en variables de entorno:
+#   SMTP_USUARIO    casilla desde la que sale el mail
+#   SMTP_PASSWORD   contrasena de aplicacion (Gmail/Workspace: 16 caracteres)
+#   BOT_DESTINATARIOS  (opcional) pisa la lista de abajo, separados por coma
+# ---------------------------------------------------------------------------
+
+# --- Fuentes -----------------------------------------------------------------
+#   a3   A3 Mercados (ex MAE). La licitacion con todos sus datos -- monto,
+#        tasa de corte, adjudicado -- el dia que abre la rueda.
+#   cnv  Hechos relevantes de la CNV. El aviso uno a tres dias antes, sin
+#        monto ni tasa, con el link a la publicacion. Es la que da tiempo
+#        a reaccionar.
+#
+# Con las dos activas vas a ver la misma emision dos veces: primero el aviso
+# de la CNV y despues la licitacion de A3. Es a proposito.
+fuentes:
+  - a3
+  - cnv
+
+# --- Proxy -------------------------------------------------------------------
+# Solo si la red exige salir por un proxy. Vacio = salida directa (y se
+# respeta la variable HTTPS_PROXY del sistema si existe).
+# Si el proxy pide usuario y clave, NO ponerlos aca: usar la variable de
+# entorno BOT_PROXY, que tiene prioridad sobre esta opcion.
+#   set BOT_PROXY=http://usuario:clave@proxy.empresa:8080
+proxy: ""
+
+# --- A quien le llega ---------------------------------------------------------
+# En 'destinatarios' y 'copia' las direcciones se ven entre si. En
+# 'copia_oculta' no: cada uno recibe el mail sin ver al resto de la lista.
+# Para avisarle a varios inversores o socios, van en copia_oculta.
+destinatarios:
+  - franco.galante@crecersgr.com.ar
+
+copia: []
+  # - mesa@crecersgr.com.ar
+
+copia_oculta: []
+  # - inversor1@ejemplo.com
+  # - inversor2@ejemplo.com
+
+# Casilla que figura como remitente. Si se deja vacio, usa SMTP_USUARIO.
+remitente: ""
+
+# --- Que dispara un mail -----------------------------------------------------
+# Categorias posibles:
+#   ON Corporativa          YPF, Pampa, bancos, Mirgor, CGC...
+#   ON PyME CNV             las bajo/mediano impacto, terreno de las SGR
+#   ON Sostenible (VS/SVS)  vinculadas a sostenibilidad
+#   Fideicomiso Financiero  FF de consumo, prendarios, agro
+#   Deuda Publica           Tesoro, provincias, municipios
+#   Otro                    lo que no encaje en los anteriores
+#
+# Todas: el monitor avisa cualquier emision de deuda del mercado primario,
+# incluida la deuda publica (Tesoro, provincias, municipios). Sacar de la
+# lista la categoria que no interese; sigue yendo a la planilla igual.
+#
+# Ojo con "Deuda Publica": el Tesoro licita cada dos semanas y en cada llamado
+# entran varios instrumentos (LECAP, BONCAP, BONCER, dolar linked), asi que es
+# la categoria que mas volumen agrega al mail.
+categorias_aviso:
+  - ON Corporativa
+  - ON PyME CNV
+  - ON Sostenible (VS/SVS)
+  - Fideicomiso Financiero
+  - Deuda Publica
+  - Otro
+
+# Que se guarda en la planilla y el dashboard: todo, para tener el panorama.
+categorias_planilla:
+  - ON Corporativa
+  - ON PyME CNV
+  - ON Sostenible (VS/SVS)
+  - Fideicomiso Financiero
+  - Deuda Publica
+  - Otro
+
+# Eventos que generan aviso: nueva | resultado | cancelada | modificada
+# "modificada" es ruidoso (el mercado corrige datos seguido); esta afuera.
+eventos_aviso:
+  - nueva
+  - resultado
+  - cancelada
+
+# --- Contexto de mercado -------------------------------------------------------
+# Cuantos dias hacia atras se miran para decir si una tasa de corte quedo por
+# encima o por debajo del mercado. Se compara solo contra lo comparable: misma
+# moneda y, si hay suficientes casos, misma categoria. Con menos de 5
+# comparables el bot no opina, para no inventar un percentil sobre tres datos.
+contexto_dias: 60
+
+# --- Moneda ------------------------------------------------------------------
+# Que monedas sigue el monitor. Se aplica a TODO: el mail, la planilla, el
+# dashboard y el historico guardado. Lista vacia = todas las monedas.
+#   USD         hard dollar: se suscribe e integra en dolares
+#   USD linked  atada al dolar oficial, se integra y paga en pesos
+#   ARS         pesos
+#   UVA         indexada por CER
+#
+# Lista vacia = todas las monedas, que es como esta ahora: el monitor sigue
+# el mercado primario completo. Para volver a seguir solo dolares, descomentar
+# las dos lineas de abajo.
+monedas: []
+  # - USD
+  # - USD linked
+
+# Que hacer con lo que no se puede clasificar.
+#
+# Los avisos de la CNV son la fuente que avisa uno a tres dias ANTES de la
+# licitacion, y no traen campo de moneda: a veces el titulo la dice y a veces
+# no. Con "ignorar" se descarta todo lo que no diga explicitamente la moneda,
+# y en la practica eso apaga casi toda la anticipacion que da la CNV. Con
+# "avisar" pasan igual y el mail los marca "Moneda: a confirmar"; cuando la
+# misma emision aparece en A3 un dia despues, ahi si trae la moneda y si es en
+# pesos deja de figurar.
+moneda_desconocida: avisar
+
+# Piso de monto para avisar, solo aplica a licitaciones en pesos.
+# 0 = sin piso. Ejemplo: 500000000 para ignorar lo menor a $500 M.
+monto_minimo_ars: 0
+
+# Emisores que siempre se avisan, sin importar categoria ni monto.
+# Matchea por texto contenido en el emisor o en el titulo.
+emisores_destacados: []
+  # - YPF
+  # - Genneia
+  # - Pampa Energia
+
+# --- Adjuntos ----------------------------------------------------------------
+# Que archivos viajan pegados al mail. Vacio = ninguno, el mail va liviano.
+#   dashboard  el HTML completo, se abre con doble clic desde el correo
+#   xlsx       la planilla con tabla y filtros
+#   csv        la planilla cruda
+#
+# Es la forma mas simple de "publicar" el dashboard: te llega actualizado a la
+# casilla en cada aviso, sin servidor ni carpeta compartida. Ojo que algunos
+# filtros corporativos bloquean los adjuntos .html; si no te llega, probar con
+# xlsx o dejar el dashboard en una carpeta de red.
+adjuntar: []
+  # - dashboard
+  # - xlsx
+
+# --- Formato del asunto ------------------------------------------------------
+# Variables: {resumen}, {fecha}, {cantidad}
+asunto: "Licitaciones ON - {resumen}"
+
+# --- Mail de informe ----------------------------------------------------------
+# El que se manda con  python bot.py --informe.
+#
+# Es distinto del aviso de novedades. Aquel es operativo, para vos, cada dos
+# horas: "esto cambio". El informe es el panorama del mercado y esta escrito
+# para reenviar: se lee completo en el cuerpo del mail, sin abrir ningun
+# archivo, y trae al pie una explicacion de que es y de donde salen los datos,
+# porque quien lo recibe reenviado no tiene contexto.
+#
+# Cuantos dias hacia atras cubre.
+informe_dias: 7
+
+# Asunto. Variables: {fecha}, {resumen}, {en_rueda}, {cerradas}
+asunto_informe: "Licitaciones ON - {fecha}"
+
+# Nombre que se ve como remitente. Conviene uno que se entienda al reenviar.
+nombre_remitente: "Monitor de licitaciones"
+
+# A quien va el informe. Si quedan vacios, usa los del mail de novedades.
+# Sirve para mandarte el informe solo a vos y reenviarlo despues a mano.
+destinatarios_informe: []
+copia_informe: []
+copia_oculta_informe: []
+
+# Adjuntos del informe: dashboard | xlsx | csv. Vacio = ninguno.
+# Ojo: muchos filtros corporativos bloquean los adjuntos .html en mails que
+# vienen de afuera. Por eso el informe se lee entero en el cuerpo: el adjunto
+# es un extra para quien quiera hurgar, no la unica forma de enterarse.
+adjuntar_informe: []
+  # - xlsx
+
+# --- SMTP --------------------------------------------------------------------
+# Gmail / Google Workspace: smtp.gmail.com, puerto 587, TLS.
+# Office 365: smtp.office365.com, puerto 587, TLS.
+smtp_host: smtp.gmail.com
+smtp_puerto: 587
+smtp_tls: true
+
+# --- Compartir con el equipo --------------------------------------------------
+# Carpetas donde dejar copia del dashboard y las planillas despues de cada
+# corrida. Tipicamente un share de red: el resto del equipo abre el archivo
+# desde ahi y el control de acceso es el de la carpeta.
+#
+# Las salidas se generan SIEMPRE local primero y despues se copian, asi que si
+# el servidor no responde igual tenes tu copia y el mail sale lo mismo; el
+# problema se reporta en el log y en el pie del mail.
+#
+# Ojo con el Programador de tareas: si la tarea corre como SYSTEM no ve las
+# unidades de red. Tiene que correr con tu usuario. Ver el README.
+copiar_a: []
+  # - \\servidor\finanzas\licitaciones
+
+# URL publica del dashboard, si lo publicas en GitHub Pages o similar.
+# No cambia donde se publica: sirve para la vista previa cuando pegas el link
+# en WhatsApp, Slack o Teams. Sin esto, el link se ve como una URL pelada.
+url_publica: ""
+  # url_publica: "https://fgalante.github.io/licitaciones-bot/"
+
+# --- Archivos ----------------------------------------------------------------
+# Relativos a la carpeta del script, o rutas absolutas.
+archivo_estado: datos/estado.json
+archivo_csv: datos/licitaciones.csv
+archivo_xlsx: datos/licitaciones.xlsx
+archivo_dashboard: datos/dashboard.html

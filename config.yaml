@@ -36,7 +36,7 @@ destinatarios:
   - franco.galante@crecersgr.com.ar
 
 copia: []
-  # - mesa@crecersgr.com.ar
+  # - xxxxx@gmail.com.ar
 
 copia_oculta: []
   # - inversor1@ejemplo.com
@@ -202,7 +202,7 @@ copiar_a: []
 # URL publica del dashboard, si lo publicas en GitHub Pages o similar.
 # No cambia donde se publica: sirve para la vista previa cuando pegas el link
 # en WhatsApp, Slack o Teams. Sin esto, el link se ve como una URL pelada.
-url_publica: ""
+url_publica: "https://francogalante12-creator.github.io/Monitor-de-Licitaciones/"
   # url_publica: "https://fgalante.github.io/licitaciones-bot/"
 
 # --- Archivos ----------------------------------------------------------------

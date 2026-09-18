@@ -1,0 +1,125 @@
+name: Monitor de licitaciones
+
+on:
+  schedule:
+    # Cada 2 horas entre las 13 y las 21 UTC (10 a 18 hora Argentina),
+    # de lunes a viernes. El mercado primario opera en esa franja.
+    - cron: "0 13,15,17,19,21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      init:
+        description: "Llenar el estado sin mandar mail (primera corrida)"
+        type: boolean
+        default: false
+
+# Un solo corrida a la vez: dos en paralelo se pisarian el estado.
+concurrency:
+  group: monitor-licitaciones
+  cancel-in-progress: false
+
+jobs:
+  monitorear:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # para commitear datos/ de vuelta
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Correr el monitor
+        id: correr
+        env:
+          SMTP_USUARIO: ${{ secrets.SMTP_USUARIO }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          BOT_DESTINATARIOS: ${{ secrets.BOT_DESTINATARIOS }}
+        run: |
+          if [ "${{ inputs.init }}" = "true" ]; then
+            python bot.py --init -v
+          else
+            python bot.py -v
+          fi
+
+      - name: Guardar el estado y las salidas
+        # Corre aunque el envio del mail haya fallado (codigo 3): el estado y
+        # la planilla son validos igual, y perderlos obligaria a re-detectar
+        # todo en la corrida siguiente.
+        if: always() && steps.correr.outcome != 'skipped'
+        run: |
+          git config user.name "monitor-licitaciones"
+          git config user.email "actions@github.com"
+          git add datos/
+          if git diff --staged --quiet; then
+            echo "Sin cambios para guardar."
+          else
+            git commit -m "Licitaciones: corrida $(date -u '+%Y-%m-%d %H:%M UTC')"
+            # Otra corrida pudo haber commiteado mientras tanto.
+            for i in 1 2 3; do
+              git pull --rebase --autostash && git push && break
+              echo "Reintento $i de push..."
+              sleep 5
+            done
+          fi
+
+      - name: Publicar el dashboard como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard
+          path: |
+            datos/dashboard.html
+            datos/licitaciones.xlsx
+          retention-days: 30
+          if-no-files-found: ignore
+
+      # --- GitHub Pages ------------------------------------------------------
+      # Deja el dashboard en una URL fija que se actualiza en cada corrida:
+      #   https://<usuario>.github.io/<repo>/
+      #
+      # ANTES del primer run hay que ir a Settings > Pages y poner
+      # Source: "GitHub Actions". Sin eso, el job "publicar" falla -- pero el
+      # mail sale igual, porque es un job aparte que ya termino.
+      #
+      # IMPORTANTE: una GitHub Page es PUBLICA aunque el repo sea privado.
+      # Cualquiera con el link ve el dashboard. Los datos son de mercado y ya
+      # son publicos; si aun asi no va, sacar este bloque y el job "publicar",
+      # y quedarse con la carpeta de red o el adjunto por mail.
+      - name: Preparar el sitio
+        if: always()
+        run: |
+          mkdir -p _sitio
+          if [ -f datos/dashboard.html ]; then
+            cp datos/dashboard.html _sitio/index.html
+            # El .nojekyll evita que GitHub procese el archivo como plantilla.
+            touch _sitio/.nojekyll
+          else
+            echo "No hay dashboard para publicar." > _sitio/index.html
+          fi
+
+      - name: Subir el sitio
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _sitio
+
+  publicar:
+    needs: monitorear
+    # Corre aunque el monitoreo haya salido con 3 o 4: el dashboard esta
+    # generado igual y vale la pena publicarlo.
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

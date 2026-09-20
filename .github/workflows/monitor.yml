@@ -11,6 +11,10 @@ on:
         description: "Llenar el estado sin mandar mail (primera corrida)"
         type: boolean
         default: false
+      resumen:
+        description: "Mandar el mail aunque no haya novedades (para probar el envio)"
+        type: boolean
+        default: false
 
 # Un solo corrida a la vez: dos en paralelo se pisarian el estado.
 concurrency:
@@ -40,8 +44,16 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           BOT_DESTINATARIOS: ${{ secrets.BOT_DESTINATARIOS }}
         run: |
+          # En una corrida programada los inputs vienen vacios, asi que las dos
+          # condiciones dan falso y corre el modo normal. Solo se activan
+          # apretando "Run workflow" y marcando el tilde.
           if [ "${{ inputs.init }}" = "true" ]; then
             python bot.py --init -v
+          elif [ "${{ inputs.resumen }}" = "true" ]; then
+            # Manda el mail aunque no haya novedades. Sirve un fin de semana,
+            # cuando no hay licitaciones y una corrida normal termina en verde
+            # sin enviar nada: eso no prueba que el envio funcione.
+            python bot.py --resumen -v
           else
             python bot.py -v
           fi

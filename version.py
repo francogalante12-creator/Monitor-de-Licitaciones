@@ -7,10 +7,13 @@ existe". Con esto se despeja en un comando:
     python bot.py --version
 """
 
-VERSION = "1.14.0"
+VERSION = "1.14.1"
 
 # Que trajo cada version, de la mas nueva a la mas vieja.
 CAMBIOS = [
+    ("1.14.1", "El dashboard se lee bien en el celular: la tabla de detalle "
+               "pasa a fichas, los campos dejan de disparar el zoom de iOS y "
+               "la tabla de la calculadora ya no desborda la pagina."),
     ("1.14.0", "Vuelve a seguir todo el mercado primario: todas las monedas y "
                "todas las categorias, deuda publica incluida, tambien en el "
                "mail de aviso."),

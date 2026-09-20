@@ -214,8 +214,12 @@ svg{display:block;max-width:100%;height:auto}
 .tt .k{color:var(--muted)}
 
 .tablabox{overflow-x:auto;border:1px solid var(--border);border-radius:8px;background:var(--surface)}
-table{border-collapse:collapse;width:100%;font-size:12.5px;min-width:1040px;
-  table-layout:fixed}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+/* El ancho minimo es SOLO de la tabla de detalle, que tiene diez columnas.
+   Cuando estaba en el selector generico, la tablita de sensibilidad de la
+   calculadora heredaba 1040px y empujaba la pagina entera a lo ancho en el
+   celular. */
+#tabla{min-width:1040px;table-layout:fixed}
 th{text-align:left;font-weight:600;color:var(--ink2);background:var(--page);
   padding:9px 10px;border-bottom:1px solid var(--axis);position:sticky;top:0;
   white-space:nowrap;cursor:pointer;user-select:none}
@@ -245,8 +249,58 @@ footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--border);
   .tile .val{font-size:19px}
   header{align-items:flex-start}
   /* Comprimir el grafico a 400px lo vuelve ilegible: mejor que se deslice. */
-  .chartbox svg{min-width:640px}
+  .chartbox svg{min-width:600px}
   .filtros input{min-width:100%}
+}
+
+/* --- Telefono -------------------------------------------------------------
+   Abajo de 640px la tabla de diez columnas deja de ser una tabla: cada fila
+   pasa a ser una ficha con la etiqueta al lado del dato. Una tabla de 1040px
+   en una pantalla de 390px se lee con lupa y deslizando en dos ejes, que es
+   la peor forma de mirar datos. */
+.hint-desliza{display:none}
+#fordenar{display:none}
+
+@media (max-width:640px){
+  body{padding-inline:12px}
+  .panel{padding:14px;border-radius:10px}
+  .tiles{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .tile{padding:11px 12px}
+  .tile .lab{min-height:0;margin-bottom:3px}
+
+  /* 16px es el umbral abajo del cual iOS hace zoom solo al tocar un campo, y
+     despues deja la pagina corrida. No es un capricho de tamano. */
+  .filtros select,.filtros input,.campo input,.campo select{
+    font-size:16px;min-height:44px;padding:8px 12px}
+  .filtros{gap:6px}
+  .filtros select{flex:1 1 calc(50% - 6px);min-width:0}
+  .campo input,.campo select{width:100%}
+  .campo{flex:1 1 calc(50% - 8px);min-width:0}
+
+  .hint-desliza{display:block;font-size:11px;color:var(--muted);margin-bottom:6px}
+  #fordenar{display:block;width:100%}
+
+  .tablabox{overflow-x:visible;border:none;border-radius:0;background:none}
+  #tabla{min-width:0;table-layout:auto;display:block;font-size:13px}
+  #tabla colgroup,#tabla thead{display:none}
+  #tabla tbody,#tabla tr,#tabla td{display:block;width:auto}
+  #tabla tr{background:var(--surface);border:1px solid var(--border);
+    border-radius:10px;padding:12px 14px;margin-bottom:8px;
+    display:flex;flex-direction:column}
+  /* El titulo encabeza la ficha aunque en la tabla sea la tercera columna. */
+  #tabla td.tit{order:-1}
+  #tabla tbody tr:hover{background:var(--surface)}
+  #tabla td{border:none;padding:3px 0;display:flex;justify-content:space-between;
+    align-items:baseline;gap:14px;text-align:right}
+  #tabla td::before{content:attr(data-l);color:var(--muted);font-size:11px;
+    text-transform:uppercase;letter-spacing:.04em;text-align:left;flex:none}
+  /* El titulo y el emisor son el encabezado de la ficha, no un dato mas. */
+  #tabla td.tit{display:block;text-align:left;font-size:14px;
+    padding:0 0 8px;margin-bottom:6px;border-bottom:1px solid var(--grid)}
+  #tabla td.tit::before{display:none}
+  /* Un "-" repetido ocho veces es ruido: en la ficha directamente no va. */
+  #tabla td.vac{display:none}
+  .vacio{padding:28px 12px}
 }
 </style>
 </head>
@@ -273,6 +327,7 @@ footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--border);
     </select>
   </div>
   <div class="leyenda" id="legScatter"></div>
+  <div class="hint-desliza">Desliz&aacute; el gr&aacute;fico para verlo completo &rarr;</div>
   <div class="chartbox" id="scatter"></div>
 </div>
 
@@ -286,6 +341,7 @@ footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--border);
     </select>
   </div>
   <div class="leyenda" id="legCurva"></div>
+  <div class="hint-desliza">Desliz&aacute; el gr&aacute;fico para verlo completo &rarr;</div>
   <div class="chartbox" id="curva"></div>
 </div>
 
@@ -317,6 +373,7 @@ footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--border);
   <h2>Licitaciones por semana</h2>
   <div class="desc">Cantidad de colocaciones efectivamente licitadas, no monto: los importes vienen en pesos, d&oacute;lares, UVA y d&oacute;lar-linked, y sumarlos no significar&iacute;a nada. No incluye los avisos de la CNV, para no contar dos veces la misma emisi&oacute;n.</div>
   <div class="leyenda" id="legBarras"></div>
+  <div class="hint-desliza">Desliz&aacute; el gr&aacute;fico para verlo completo &rarr;</div>
   <div class="chartbox" id="barras"></div>
 </div>
 
@@ -329,6 +386,7 @@ footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--border);
     <select id="fest"></select>
     <select id="fmon"></select>
     <select id="ffue"></select>
+    <select id="fordenar" aria-label="Ordenar por"></select>
   </div>
   <div class="tablabox"><table id="tabla"><thead></thead><tbody></tbody></table>
     <div class="vacio" id="vacio" hidden>No hay licitaciones que cumplan el filtro.</div>
@@ -696,12 +754,16 @@ function barras(){
 /* ---------------- tabla ---------------- */
 /* [clave, encabezado, tipo, ancho] -- los anchos son fijos (table-layout:fixed)
    para que el titulo tenga lugar y las columnas cortas no se partan. */
+/* col, encabezado, tipo, ancho, etiqueta larga para la ficha del celular
+   (cuando falta, se usa el encabezado). */
 const COLS = [
   ["inicio","Fecha","f","86px"], ["categoria","Categor&iacute;a","c","136px"],
   ["titulo","T&iacute;tulo","t","auto"], ["estado","Estado","e","104px"],
-  ["moneda","Mon.","s","76px"], ["licitado","A licitar","m","104px"],
-  ["adjudicado","Adjudicado","m","110px"], ["ratio","Adj./Lic.","r","82px"],
-  ["tasa","Corte","p","84px"], ["vencimiento","Vence","f","92px"],
+  ["moneda","Mon.","s","76px","Moneda"], ["licitado","A licitar","m","104px"],
+  ["adjudicado","Adjudicado","m","110px"],
+  ["ratio","Adj./Lic.","r","82px","Adjudicado / licitado"],
+  ["tasa","Corte","p","84px","Tasa de corte"],
+  ["vencimiento","Vence","f","92px","Vencimiento"],
 ];
 let orden = {col:"inicio", asc:false};
 
@@ -721,29 +783,35 @@ function filtradas(){
   );
 }
 
-function celda(d, col, tipo){
+/* data-l es la etiqueta que en el celular reemplaza al encabezado de columna:
+   la ficha muestra "Corte  38,20%" en vez de un numero suelto. La clase "vac"
+   marca el dato que no existe, para poder esconderlo en la ficha. */
+function celda(d, col, tipo, etiqueta){
   const v = d[col];
+  const td = (clases, html, vacio) =>
+    `<td data-l="${etiqueta}" class="${clases}${vacio ? " vac" : ""}">${html}</td>`;
+
   switch(tipo){
-    case "f": return `<td class="num">${fechaAr(v)}</td>`;
-    case "c": return `<td><span class="cat"><i class="sw" style="background:${color(v)}"></i>${esc(nombreCat(v))}</span></td>`;
+    case "f": return td("num", fechaAr(v), !v);
+    case "c": return td("", `<span class="cat"><i class="sw" style="background:${color(v)}"></i>${esc(nombreCat(v))}</span>`, !v);
     case "t": {
       const doc = d.enlace
         ? `<a class="doc" href="${esc(d.enlace)}" target="_blank" rel="noopener">ver publicación ↗</a>`
         : "";
-      return `<td class="tit">${esc(d.titulo)}<div class="em">${esc(d.emisor)}</div>${doc}</td>`;
+      return td("tit", `${esc(d.titulo)}<div class="em">${esc(d.emisor)}</div>${doc}`);
     }
     case "e": {
       const k = v==="Activa" ? "b-act" : v==="Finalizada" ? "b-fin"
               : v==="Anunciada" ? "b-anu" : "b-can";
       const txt = v==="Cancelada/Suspendida" ? "Cancelada" : v;
-      return `<td class="nw"><span class="badge ${k}">${esc(txt)}</span></td>`;
+      return td("nw", `<span class="badge ${k}">${esc(txt)}</span>`, !v);
     }
-    case "s": return `<td class="nw">${esc(monCorta(v))}</td>`;
-    case "m": return `<td class="num">${montoCorto(v, d.moneda)}</td>`;
-    case "r": return `<td class="num">${v==null?"-":nf(v*100,0)+"%"}</td>`;
-    case "p": return `<td class="num">${d.desierta ? '<span class="b-des">desierta</span>'
-                        : v==null ? "-" : nf(v,2)+"%"}</td>`;
-    default:  return `<td>${esc(v)}</td>`;
+    case "s": return td("nw", esc(monCorta(v)), !v);
+    case "m": return td("num", montoCorto(v, d.moneda), v==null);
+    case "r": return td("num", v==null?"-":nf(v*100,0)+"%", v==null);
+    case "p": return td("num", d.desierta ? '<span class="b-des">desierta</span>'
+                        : v==null ? "-" : nf(v,2)+"%", v==null && !d.desierta);
+    default:  return td("", esc(v), !v);
   }
 }
 
@@ -772,10 +840,15 @@ function pintar(){
     `</th>`).join("") + "</tr>";
 
   tabla.tBodies[0].innerHTML = filas.map(d =>
-    "<tr>" + COLS.map(([c,,tp]) => celda(d,c,tp)).join("") + "</tr>").join("");
+    "<tr>" + COLS.map(([c,t,tp,,largo]) => celda(d,c,tp,largo||t)).join("") + "</tr>"
+  ).join("");
 
   $("#vacio").hidden = filas.length > 0;
   tabla.hidden = filas.length === 0;
+
+  // Que el selector del celular refleje un orden elegido por clic, y al reves.
+  const sel = $("#fordenar");
+  if(sel) sel.value = `${orden.col}|${orden.asc ? "asc" : "desc"}`;
 
   tabla.tHead.querySelectorAll("th").forEach(th =>
     th.addEventListener("click", () => {
@@ -798,6 +871,20 @@ $("#ffue").innerHTML = `<option value="">Todas las fuentes</option>` +
   fuentesPresentes.map(f =>
     `<option value="${esc(f)}">${esc(NOMBRE_FUENTE[f]||f)}</option>`).join("");
 $("#ffue").hidden = fuentesPresentes.length < 2;
+
+/* En el celular no hay encabezados donde hacer clic, asi que el orden sale de
+   este selector. En pantalla grande esta oculto y manda el clic en el th; los
+   dos escriben sobre el mismo estado, asi que no se contradicen. */
+$("#fordenar").innerHTML = COLS.flatMap(([c,t,,,largo]) => (t = largo||t, [
+  `<option value="${c}|desc">${t}: mayor a menor</option>`,
+  `<option value="${c}|asc">${t}: menor a mayor</option>`,
+])).join("");
+$("#fordenar").value = `${orden.col}|${orden.asc ? "asc" : "desc"}`;
+$("#fordenar").addEventListener("input", () => {
+  const [col, dir] = $("#fordenar").value.split("|");
+  orden = {col, asc: dir === "asc"};
+  pintar();
+});
 
 ["#q","#fcat","#fest","#fmon","#ffue"].forEach(s =>
   $(s).addEventListener("input", pintar));

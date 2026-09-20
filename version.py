@@ -7,10 +7,16 @@ existe". Con esto se despeja en un comando:
     python bot.py --version
 """
 
-VERSION = "1.14.1"
+VERSION = "1.14.3"
 
 # Que trajo cada version, de la mas nueva a la mas vieja.
 CAMBIOS = [
+    ("1.14.3", "El workflow suma un tilde para forzar el envio del mail aunque "
+               "no haya novedades, que es la unica forma de probarlo un fin de "
+               "semana."),
+    ("1.14.2", "Un secreto pegado con un salto de linea al final ya no tumba "
+               "la corrida: se limpia al cargar, y un espacio adentro de la "
+               "casilla se rechaza nombrando el secreto."),
     ("1.14.1", "El dashboard se lee bien en el celular: la tabla de detalle "
                "pasa a fichas, los campos dejan de disparar el zoom de iOS y "
                "la tabla de la calculadora ya no desborda la pagina."),

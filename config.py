@@ -121,10 +121,29 @@ def cargar(ruta_config: str | Path | None = None) -> dict:
     if env_dest:
         cfg["destinatarios"] = [d.strip() for d in env_dest.split(",") if d.strip()]
 
-    cfg["usuario_smtp"] = os.getenv(ENV_USUARIO, "")
-    cfg["password_smtp"] = os.getenv(ENV_PASSWORD, "")
+    # Los espacios y saltos de linea de los bordes se sacan siempre. Al pegar
+    # una casilla en el formulario de secretos de GitHub (o en un setx) se
+    # cuela un salto de linea al final sin que se vea, y despues el envio
+    # explota en la cabecera "From" con un ValueError de la libreria de
+    # correo, que no dice nada de donde vino el problema.
+    cfg["usuario_smtp"] = os.getenv(ENV_USUARIO, "").strip()
+    cfg["password_smtp"] = os.getenv(ENV_PASSWORD, "").strip()
+    cfg["remitente"] = str(cfg["remitente"] or "").strip()
     if not cfg["remitente"]:
         cfg["remitente"] = cfg["usuario_smtp"]
+
+    # Si todavia queda un espacio o un caracter de control ADENTRO, no se
+    # arregla solo: una direccion no los lleva, asi que es un error de carga y
+    # conviene decirlo aca, con el nombre del secreto que hay que corregir.
+    for clave, etiqueta in (("usuario_smtp", ENV_USUARIO), ("remitente", "remitente")):
+        valor = cfg[clave]
+        if valor and any(c.isspace() for c in valor):
+            raise ConfigInvalida(
+                f"{etiqueta} tiene un espacio o un salto de linea adentro: "
+                f"{valor!r}. Una direccion de correo no puede tenerlos. "
+                f"Volve a cargarlo cuidando de no arrastrar el salto de linea "
+                f"al copiar y pegar."
+            )
 
     for clave in ("archivo_estado", "archivo_csv", "archivo_xlsx", "archivo_dashboard"):
         cfg[clave] = _resolver(str(cfg[clave]))

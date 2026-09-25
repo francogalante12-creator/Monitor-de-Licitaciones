@@ -1,6 +1,6 @@
 {
  "version": 2,
- "actualizado": "2026-09-25T17:52:49+00:00",
+ "actualizado": "2026-09-25T22:10:30+00:00",
  "licitaciones": {
   "cnv:3571104": {
    "id": "3571104",
@@ -75,7 +75,7 @@
    "fecha_liquidacion": "2026-09-18T03:00:00+00:00",
    "fecha_vencimiento": "2026-12-11T03:00:00+00:00",
    "fecha_modificacion": "2026-09-17T21:56:33+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.23
   },
   "a3:-788": {
@@ -113,7 +113,7 @@
    "fecha_liquidacion": "2026-09-18T03:00:00+00:00",
    "fecha_vencimiento": "2027-03-12T03:00:00+00:00",
    "fecha_modificacion": "2026-09-17T21:55:14+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.4791
   },
   "a3:-789": {
@@ -151,7 +151,7 @@
    "fecha_liquidacion": "2026-09-18T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-10T03:00:00+00:00",
    "fecha_modificacion": "2026-09-17T21:54:51+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9774
   },
   "a3:-900": {
@@ -189,7 +189,7 @@
    "fecha_liquidacion": "2026-09-18T03:00:00+00:00",
    "fecha_vencimiento": "2026-10-16T03:00:00+00:00",
    "fecha_modificacion": "2026-09-17T21:57:18+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.0767
   },
   "a3:-901": {
@@ -227,7 +227,7 @@
    "fecha_liquidacion": "2026-09-18T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-13T03:00:00+00:00",
    "fecha_modificacion": "2026-09-17T22:01:52+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.1533
   },
   "a3:-916": {
@@ -265,7 +265,7 @@
    "fecha_liquidacion": "2026-09-22T03:00:00+00:00",
    "fecha_vencimiento": "2030-09-22T03:00:00+00:00",
    "fecha_modificacion": "2026-09-17T22:28:57+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 4.0
   },
   "a3:-920": {
@@ -303,7 +303,7 @@
    "fecha_liquidacion": "2026-09-22T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-22T19:25:36+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-921": {
@@ -341,7 +341,7 @@
    "fecha_liquidacion": "2026-09-18T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-17T21:33:43+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-917": {
@@ -379,7 +379,7 @@
    "fecha_liquidacion": "2026-09-17T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-17T03:00:00+00:00",
    "fecha_modificacion": "2026-09-15T21:08:09+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-895": {
@@ -417,7 +417,7 @@
    "fecha_liquidacion": "2026-09-16T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-16T03:00:00+00:00",
    "fecha_modificacion": "2026-09-15T20:30:41+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-896": {
@@ -455,7 +455,7 @@
    "fecha_liquidacion": "2026-09-16T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-16T03:00:00+00:00",
    "fecha_modificacion": "2026-09-15T20:30:44+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-594": {
@@ -493,7 +493,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-29T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:51:50+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.3723
   },
   "a3:-597": {
@@ -531,7 +531,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-13T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:51:52+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.1615
   },
   "a3:-598": {
@@ -569,7 +569,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-26T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:51:46+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.449
   },
   "a3:-599": {
@@ -607,7 +607,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2027-07-30T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:51:20+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.8706
   },
   "a3:-817": {
@@ -645,7 +645,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2027-06-30T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:52:01+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.7885
   },
   "a3:-903": {
@@ -683,7 +683,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2026-10-30T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:51:59+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.1232
   },
   "a3:-904": {
@@ -721,7 +721,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-30T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:52:29+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.2081
   },
   "a3:-905": {
@@ -759,7 +759,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": "2027-03-31T03:00:00+00:00",
    "fecha_modificacion": "2026-09-14T12:53:04+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.5394
   },
   "a3:-899": {
@@ -797,7 +797,7 @@
    "fecha_liquidacion": "2026-09-11T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-10T20:55:32+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-914": {
@@ -835,7 +835,7 @@
    "fecha_liquidacion": "2026-09-15T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-10T20:42:39+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "cnv:202609091411-fideicomiso-financiero-individual-desarrollo-mi": {
@@ -873,7 +873,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-09T14:11:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "a3:-892": {
@@ -911,7 +911,7 @@
    "fecha_liquidacion": "2026-09-14T03:00:00+00:00",
    "fecha_vencimiento": "2029-09-14T03:00:00+00:00",
    "fecha_modificacion": "2026-09-09T21:24:21+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-911": {
@@ -949,7 +949,7 @@
    "fecha_liquidacion": "2026-09-11T03:00:00+00:00",
    "fecha_vencimiento": "2028-03-11T03:00:00+00:00",
    "fecha_modificacion": "2026-09-09T21:23:07+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.4976
   },
   "a3:-912": {
@@ -987,7 +987,7 @@
    "fecha_liquidacion": "2026-09-11T03:00:00+00:00",
    "fecha_vencimiento": "2028-03-11T03:00:00+00:00",
    "fecha_modificacion": "2026-09-09T21:23:23+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.4976
   },
   "cnv:202609081450-secubono-236-fideicomiso-financiero": {
@@ -1025,7 +1025,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-08T14:50:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "a3:-898": {
@@ -1063,7 +1063,7 @@
    "fecha_liquidacion": "2026-09-10T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-03T03:00:00+00:00",
    "fecha_modificacion": "2026-09-08T21:45:08+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9802
   },
   "a3:-908": {
@@ -1101,7 +1101,7 @@
    "fecha_liquidacion": "2026-09-11T03:00:00+00:00",
    "fecha_vencimiento": "2028-05-28T03:00:00+00:00",
    "fecha_modificacion": "2026-09-08T21:41:07+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.7112
   },
   "a3:-910": {
@@ -1139,7 +1139,7 @@
    "fecha_liquidacion": "2026-09-11T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-11T03:00:00+00:00",
    "fecha_modificacion": "2026-09-08T21:56:34+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-913": {
@@ -1177,7 +1177,7 @@
    "fecha_liquidacion": "2026-09-09T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-10T15:18:02+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-897": {
@@ -1215,7 +1215,7 @@
    "fecha_liquidacion": "2026-09-08T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-08T03:00:00+00:00",
    "fecha_modificacion": "2026-09-04T20:55:47+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-885": {
@@ -1253,7 +1253,7 @@
    "fecha_liquidacion": "2026-09-08T03:00:00+00:00",
    "fecha_vencimiento": "2029-09-08T03:00:00+00:00",
    "fecha_modificacion": "2026-09-03T21:12:24+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-888": {
@@ -1291,7 +1291,7 @@
    "fecha_liquidacion": "2026-09-04T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-03T20:52:23+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-889": {
@@ -1329,7 +1329,7 @@
    "fecha_liquidacion": "2026-09-07T03:00:00+00:00",
    "fecha_vencimiento": "2027-10-10T03:00:00+00:00",
    "fecha_modificacion": "2026-09-03T21:39:41+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.0897
   },
   "a3:-891": {
@@ -1367,7 +1367,7 @@
    "fecha_liquidacion": "2026-09-07T03:00:00+00:00",
    "fecha_vencimiento": "2029-09-07T03:00:00+00:00",
    "fecha_modificacion": "2026-09-03T21:19:29+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-894": {
@@ -1405,7 +1405,7 @@
    "fecha_liquidacion": "2026-09-07T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-07T03:00:00+00:00",
    "fecha_modificacion": "2026-09-03T20:51:42+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-866": {
@@ -1443,7 +1443,7 @@
    "fecha_liquidacion": "2026-09-07T03:00:00+00:00",
    "fecha_vencimiento": "2029-09-07T03:00:00+00:00",
    "fecha_modificacion": "2026-09-04T21:14:35+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-893": {
@@ -1481,7 +1481,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-03T13:37:05+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-887": {
@@ -1519,7 +1519,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-03T03:00:00+00:00",
    "fecha_modificacion": "2026-09-01T21:29:17+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-864": {
@@ -1557,7 +1557,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": "2029-09-03T03:00:00+00:00",
    "fecha_modificacion": "2026-09-02T13:13:22+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-865": {
@@ -1595,7 +1595,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": "2029-03-03T03:00:00+00:00",
    "fecha_modificacion": "2026-09-02T13:13:19+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.4969
   },
   "a3:-878": {
@@ -1633,7 +1633,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T21:42:43+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-884": {
@@ -1671,7 +1671,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T21:07:11+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-886": {
@@ -1709,7 +1709,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-03T03:00:00+00:00",
    "fecha_modificacion": "2026-09-01T21:19:56+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-890": {
@@ -1747,7 +1747,7 @@
    "fecha_liquidacion": "2026-09-03T03:00:00+00:00",
    "fecha_vencimiento": "2028-01-03T03:00:00+00:00",
    "fecha_modificacion": "2026-09-02T13:13:21+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.3333
   },
   "cnv:202609011251-invernea-proteina-pyme-serie-4": {
@@ -1785,7 +1785,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T12:51:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "cnv:202609011249-invernea-proteina-pyme-serie-3": {
@@ -1823,7 +1823,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T12:49:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "cnv:202609011248-invernea-proteina-pyme-serie-2": {
@@ -1861,7 +1861,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T12:48:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "cnv:202609011246-invernea-proteina-pyme-serie-i": {
@@ -1899,7 +1899,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T12:46:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "cnv:202609011244-fideicomiso-financiero-invernea-ganadero": {
@@ -1937,7 +1937,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-01T12:44:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "cnv:202608311954-fideicomiso-financiero-creditech-serie-iv": {
@@ -1975,7 +1975,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-08-31T19:54:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "a3:-875": {
@@ -2013,7 +2013,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2028-08-31T03:00:00+00:00",
    "fecha_modificacion": "2026-08-28T20:48:12+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-882": {
@@ -2051,7 +2051,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-30T03:00:00+00:00",
    "fecha_modificacion": "2026-08-28T21:06:03+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.2491
   },
   "a3:-591": {
@@ -2089,7 +2089,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-29T03:00:00+00:00",
    "fecha_modificacion": "2026-08-27T20:44:10+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.4134
   },
   "a3:-794": {
@@ -2127,7 +2127,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2026-10-30T03:00:00+00:00",
    "fecha_modificacion": "2026-08-27T20:31:32+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.1643
   },
   "a3:-808": {
@@ -2165,7 +2165,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-29T03:00:00+00:00",
    "fecha_modificacion": "2026-08-27T20:36:32+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.4134
   },
   "a3:-822": {
@@ -2203,7 +2203,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-30T03:00:00+00:00",
    "fecha_modificacion": "2026-08-27T20:12:44+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.2491
   },
   "a3:-880": {
@@ -2241,7 +2241,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": "2030-02-28T03:00:00+00:00",
    "fecha_modificacion": "2026-08-28T12:56:59+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.5044
   },
   "a3:-881": {
@@ -2279,7 +2279,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2027-05-31T03:00:00+00:00",
    "fecha_modificacion": "2026-08-27T20:12:48+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.7474
   },
   "a3:-868": {
@@ -2317,7 +2317,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": "2027-08-28T03:00:00+00:00",
    "fecha_modificacion": "2026-08-26T21:24:37+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-869": {
@@ -2355,7 +2355,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": "2027-08-28T03:00:00+00:00",
    "fecha_modificacion": "2026-08-26T21:25:15+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-872": {
@@ -2393,7 +2393,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-08-26T22:04:17+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-873": {
@@ -2431,7 +2431,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": "2028-08-28T03:00:00+00:00",
    "fecha_modificacion": "2026-08-26T21:23:43+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-874": {
@@ -2469,7 +2469,7 @@
    "fecha_liquidacion": "2026-08-27T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-08-26T21:28:37+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-876": {
@@ -2507,7 +2507,7 @@
    "fecha_liquidacion": "2026-08-31T03:00:00+00:00",
    "fecha_vencimiento": "2030-04-30T03:00:00+00:00",
    "fecha_modificacion": "2026-08-26T21:05:38+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 3.6632
   },
   "a3:-836": {
@@ -2545,7 +2545,7 @@
    "fecha_liquidacion": "2026-08-27T03:00:00+00:00",
    "fecha_vencimiento": "2027-08-27T03:00:00+00:00",
    "fecha_modificacion": "2026-08-26T13:13:53+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-861": {
@@ -2583,7 +2583,7 @@
    "fecha_liquidacion": "2026-08-26T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-08-25T21:46:40+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-862": {
@@ -2621,7 +2621,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": "2028-02-28T03:00:00+00:00",
    "fecha_modificacion": "2026-08-25T21:38:01+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.5031
   },
   "a3:-863": {
@@ -2659,7 +2659,7 @@
    "fecha_liquidacion": "2026-08-28T03:00:00+00:00",
    "fecha_vencimiento": "2028-08-28T03:00:00+00:00",
    "fecha_modificacion": "2026-08-25T21:42:15+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-870": {
@@ -2697,7 +2697,7 @@
    "fecha_liquidacion": "2026-08-27T03:00:00+00:00",
    "fecha_vencimiento": "2028-08-27T03:00:00+00:00",
    "fecha_modificacion": "2026-08-25T21:59:24+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-871": {
@@ -2735,7 +2735,7 @@
    "fecha_liquidacion": "2026-08-27T03:00:00+00:00",
    "fecha_vencimiento": "2028-08-27T03:00:00+00:00",
    "fecha_modificacion": "2026-08-25T22:01:14+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-843": {
@@ -3229,7 +3229,7 @@
    "fecha_liquidacion": "2026-08-24T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-24T03:00:00+00:00",
    "fecha_modificacion": "2026-08-19T22:12:55+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.5038
   },
   "a3:-840": {
@@ -3571,7 +3571,7 @@
    "fecha_liquidacion": "2026-08-14T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-12T03:00:00+00:00",
    "fecha_modificacion": "2026-08-13T21:14:26+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.4983
   },
   "cnv:3571464": {
@@ -3685,7 +3685,7 @@
    "fecha_liquidacion": "2026-09-23T03:00:00+00:00",
    "fecha_vencimiento": "2029-03-23T03:00:00+00:00",
    "fecha_modificacion": "2026-09-18T20:38:43+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.4969
   },
   "a3:-940": {
@@ -3723,7 +3723,7 @@
    "fecha_liquidacion": "2026-09-21T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-30T03:00:00+00:00",
    "fecha_modificacion": "2026-09-18T21:07:05+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.1916
   },
   "a3:-941": {
@@ -3761,7 +3761,7 @@
    "fecha_liquidacion": "2026-09-21T03:00:00+00:00",
    "fecha_vencimiento": "2027-03-29T03:00:00+00:00",
    "fecha_modificacion": "2026-09-18T21:07:19+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.5175
   },
   "cnv:3571161": {
@@ -3837,7 +3837,7 @@
    "fecha_liquidacion": "2026-09-23T03:00:00+00:00",
    "fecha_vencimiento": "2028-07-15T03:00:00+00:00",
    "fecha_modificacion": "2026-09-21T20:10:58+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.8097
   },
   "a3:-948": {
@@ -3875,7 +3875,7 @@
    "fecha_liquidacion": "2026-09-23T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-27T03:00:00+00:00",
    "fecha_modificacion": "2026-09-21T20:12:07+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.0103
   },
   "a3:-949": {
@@ -3913,7 +3913,7 @@
    "fecha_liquidacion": "2026-09-23T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-23T03:00:00+00:00",
    "fecha_modificacion": "2026-09-21T20:54:35+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "cnv:3571936": {
@@ -3951,7 +3951,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-21T19:55:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "cnv:202609211955-banco-supervielle-s-a-": {
@@ -3989,7 +3989,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-21T19:55:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "a3:-928": {
@@ -4027,7 +4027,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-22T21:12:34+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-929": {
@@ -4065,7 +4065,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-22T21:14:14+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-930": {
@@ -4103,7 +4103,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-22T21:15:23+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "cnv:3572147": {
@@ -4141,7 +4141,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-22T14:15:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "a3:-780": {
@@ -4179,7 +4179,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-18T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T22:07:58+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.4025
   },
   "a3:-781": {
@@ -4217,7 +4217,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2028-03-30T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T22:08:02+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.514
   },
   "a3:-906": {
@@ -4255,7 +4255,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2026-10-22T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T22:09:40+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.0767
   },
   "a3:-907": {
@@ -4293,7 +4293,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-19T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T22:12:31+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.1533
   },
   "a3:-909": {
@@ -4331,7 +4331,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2026-12-17T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T22:14:18+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.23
   },
   "a3:-922": {
@@ -4369,7 +4369,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": "2030-09-25T03:00:00+00:00",
    "fecha_modificacion": "2026-09-24T19:30:04+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 4.0
   },
   "a3:-951": {
@@ -4407,7 +4407,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-24T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T20:37:28+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-955": {
@@ -4445,7 +4445,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-25T03:00:00+00:00",
    "fecha_modificacion": "2026-09-22T21:21:43+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0041
   },
   "a3:-919": {
@@ -4483,7 +4483,7 @@
    "fecha_liquidacion": "2026-09-28T03:00:00+00:00",
    "fecha_vencimiento": "2029-03-28T03:00:00+00:00",
    "fecha_modificacion": "2026-09-23T21:25:23+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.4969
   },
   "a3:-923": {
@@ -4521,7 +4521,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-25T03:00:00+00:00",
    "fecha_modificacion": "2026-09-23T20:56:44+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-942": {
@@ -4559,7 +4559,7 @@
    "fecha_liquidacion": "2026-09-24T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-24T03:00:00+00:00",
    "fecha_modificacion": "2026-09-23T21:06:49+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-945": {
@@ -4597,7 +4597,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-27T03:00:00+00:00",
    "fecha_modificacion": "2026-09-23T21:53:59+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.0048
   },
   "a3:-946": {
@@ -4635,7 +4635,7 @@
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": "2027-06-25T03:00:00+00:00",
    "fecha_modificacion": "2026-09-23T21:54:00+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 0.7474
   },
   "a3:-953": {
@@ -4672,8 +4672,8 @@
    "fecha_fin": "2026-09-23T19:30:00+00:00",
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": "2027-09-27T03:00:00+00:00",
-   "fecha_modificacion": "2026-09-23T22:18:46+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T21:31:30+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 1.0048
   },
   "a3:-954": {
@@ -4710,8 +4710,8 @@
    "fecha_fin": "2026-09-23T19:30:00+00:00",
    "fecha_liquidacion": "2026-09-25T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-25T03:00:00+00:00",
-   "fecha_modificacion": "2026-09-23T22:18:47+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T21:31:33+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-943": {
@@ -4939,7 +4939,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-09-25T14:05:00+00:00",
-   "consultado": "2026-09-25T17:52:46+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
    "plazo_anios": null
   },
   "a3:-957": {
@@ -4957,14 +4957,14 @@
    "moneda_monto": "ARS PESOS",
    "moneda_clase": "ARS",
    "monto_licitar": 20493483646.0,
-   "monto_adjudicado": null,
+   "monto_adjudicado": 20493483646.0,
    "ampliable_hasta": "NO AMPLIABLE",
-   "valor_corte": "VDFA: PRECIO DE CORTE / VDFB: PRECIO DE CORTE",
-   "tasa_corte": null,
+   "valor_corte": "VDFA: PRECIO DE CORTE 98.85% / VDFB: PRECIO DE CORTE 99.1919%",
+   "tasa_corte": 98.85,
    "desierta": false,
    "variable_licitar": "PRECIO",
    "sistema_adjudicacion": "Holandés",
-   "duration": "",
+   "duration": "VDFA: 2.86 MESES / VDFB: 7.59 MESES",
    "plazo_especie": "",
    "industria": "",
    "colocador": "BANCO DE GALICIA Y BUENOS AIRES S.A. SBS TRADING S.A. BANCO PATAGONIA S.A.",
@@ -4976,8 +4976,8 @@
    "fecha_fin": "2026-09-25T19:30:00+00:00",
    "fecha_liquidacion": "2026-09-28T03:00:00+00:00",
    "fecha_vencimiento": null,
-   "fecha_modificacion": "2026-09-24T14:58:23+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T21:12:47+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-960": {
@@ -4995,10 +4995,10 @@
    "moneda_monto": "ARS PESOS",
    "moneda_clase": "ARS",
    "monto_licitar": 5571484818.0,
-   "monto_adjudicado": null,
+   "monto_adjudicado": 5571484818.0,
    "ampliable_hasta": "NO AMPLIABLE",
-   "valor_corte": "VDFA: TIR DE CORTE % / VDFB: TIR DE CORTE %",
-   "tasa_corte": null,
+   "valor_corte": "VDFA: TIR DE CORTE 27.25 % / VDFB: TIR DE CORTE 21.55 %",
+   "tasa_corte": 27.25,
    "desierta": false,
    "variable_licitar": "TIR",
    "sistema_adjudicacion": "Holandés",
@@ -5014,8 +5014,8 @@
    "fecha_fin": "2026-09-25T19:00:00+00:00",
    "fecha_liquidacion": "2026-09-28T03:00:00+00:00",
    "fecha_vencimiento": null,
-   "fecha_modificacion": "2026-09-25T14:59:16+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T21:32:14+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-961": {
@@ -5033,14 +5033,14 @@
    "moneda_monto": "ARS PESOS",
    "moneda_clase": "ARS",
    "monto_licitar": 11465773609.0,
-   "monto_adjudicado": null,
+   "monto_adjudicado": 11465773609.0,
    "ampliable_hasta": "NO AMPLIABLE",
-   "valor_corte": "VDFA MARGEN DE CORTE: % / VDFB MARGEN DE CORTE: % / VDFC MARGEN DE CORTE: %",
-   "tasa_corte": null,
+   "valor_corte": "VDFA MARGEN DE CORTE: 4.50 % / VDFB MARGEN DE CORTE: 12.00% / VDFC MARGEN DE CORTE: 8.00%",
+   "tasa_corte": 4.5,
    "desierta": false,
    "variable_licitar": "MARGEN",
    "sistema_adjudicacion": "Holandés",
-   "duration": "",
+   "duration": "VDFA: 5.59 MESES / VDFB: 11.50 MESES / VDFC: 13.38 MESES",
    "plazo_especie": "",
    "industria": "",
    "colocador": "STONEX SECURITIES S.A. MACRO SECURITIES S.A.U. BANCO DE VALORES S.A.",
@@ -5052,8 +5052,8 @@
    "fecha_fin": "2026-09-25T19:00:00+00:00",
    "fecha_liquidacion": "2026-09-29T03:00:00+00:00",
    "fecha_vencimiento": null,
-   "fecha_modificacion": "2026-09-24T21:58:25+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T21:49:04+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": null
   },
   "a3:-964": {
@@ -5071,14 +5071,14 @@
    "moneda_monto": "ARS PESOS",
    "moneda_clase": "ARS",
    "monto_licitar": 1500000000.0,
-   "monto_adjudicado": null,
+   "monto_adjudicado": 1500000000.0,
    "ampliable_hasta": "NO AMPLIABLE",
-   "valor_corte": "MARGEN DE CORTE: %",
-   "tasa_corte": null,
+   "valor_corte": "MARGEN DE CORTE: 0.00%",
+   "tasa_corte": 0.0,
    "desierta": false,
    "variable_licitar": "MARGEN",
    "sistema_adjudicacion": "Holandés",
-   "duration": "",
+   "duration": "1.48 AÑOS",
    "plazo_especie": "",
    "industria": "",
    "colocador": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
@@ -5090,8 +5090,8 @@
    "fecha_fin": "2026-09-25T19:00:00+00:00",
    "fecha_liquidacion": "2026-09-29T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-29T03:00:00+00:00",
-   "fecha_modificacion": "2026-09-24T17:49:17+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T20:49:44+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-968": {
@@ -5109,14 +5109,14 @@
    "moneda_monto": "ARS PESOS",
    "moneda_clase": "ARS",
    "monto_licitar": 3000000000.0,
-   "monto_adjudicado": null,
+   "monto_adjudicado": 4762500000.0,
    "ampliable_hasta": "V/N $ 5.000.000.000",
-   "valor_corte": "MARGEN DE CORTE: %",
-   "tasa_corte": null,
+   "valor_corte": "MARGEN DE CORTE: 0.00%",
+   "tasa_corte": 0.0,
    "desierta": false,
    "variable_licitar": "MARGEN",
    "sistema_adjudicacion": "Holandés",
-   "duration": "",
+   "duration": "15.54 MESES",
    "plazo_especie": "",
    "industria": "",
    "colocador": "BANCO CMF S.A. BANCO DE LA PROVINCIA DE BUENOS AIRES BANCO DE GALICIA Y BUENOS AIRES S.A. BANCO SUPERVIELLE S.A.",
@@ -5128,9 +5128,47 @@
    "fecha_fin": "2026-09-25T19:15:00+00:00",
    "fecha_liquidacion": "2026-09-29T03:00:00+00:00",
    "fecha_vencimiento": "2028-09-29T03:00:00+00:00",
-   "fecha_modificacion": "2026-09-24T16:15:45+00:00",
-   "consultado": "2026-09-25T17:52:34+00:00",
+   "fecha_modificacion": "2026-09-25T21:32:16+00:00",
+   "consultado": "2026-09-25T22:10:14+00:00",
    "plazo_anios": 2.0014
+  },
+  "cnv:202609251816-fideicomiso-financiero-creditech-serie-iii": {
+   "id": "202609251816-fideicomiso-financiero-creditech-serie-iii",
+   "fuente": "cnv",
+   "clave": "cnv:202609251816-fideicomiso-financiero-creditech-serie-iii",
+   "enlace": "https://aif2.cnv.gov.ar/Presentations/publicview/788c3e15-7677-4a4f-91b3-4eba0c6ae0db",
+   "titulo": "INSTRUCCIÓN DE LIQUIDACIÓN CORRESPONDIENTE AL FIDEICOMISO FINANCIERO CREDITECH SERIE III",
+   "emisor": "FIDEICOMISO FINANCIERO CREDITECH SERIE III",
+   "tipo": "CNV - FF",
+   "categoria": "Fideicomiso Financiero",
+   "estado": "Anunciada",
+   "estado_cod": "N",
+   "moneda": "",
+   "moneda_monto": "",
+   "moneda_clase": "",
+   "monto_licitar": null,
+   "monto_adjudicado": null,
+   "ampliable_hasta": "",
+   "valor_corte": "",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "",
+   "sistema_adjudicacion": "",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "",
+   "liquidador": "",
+   "rueda": "",
+   "modalidad": "",
+   "observaciones": "INSTRUCCIÓN DE LIQUIDACIÓN CORRESPONDIENTE AL FIDEICOMISO FINANCIERO CREDITECH SERIE III",
+   "fecha_inicio": "2026-09-25T18:16:00+00:00",
+   "fecha_fin": null,
+   "fecha_liquidacion": null,
+   "fecha_vencimiento": null,
+   "fecha_modificacion": "2026-09-25T18:16:00+00:00",
+   "consultado": "2026-09-25T22:10:28+00:00",
+   "plazo_anios": null
   }
  }
 }

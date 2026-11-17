@@ -1,6 +1,6 @@
 {
  "version": 2,
- "actualizado": "2026-11-16T22:49:13+00:00",
+ "actualizado": "2026-11-17T21:38:45+00:00",
  "licitaciones": {
   "cnv:3571104": {
    "id": "3571104",
@@ -5585,7 +5585,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-01T14:44:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610011441-invernea-proteina-pyme-serie-3": {
@@ -6725,7 +6725,7 @@
    "fecha_liquidacion": "2026-09-16T03:00:00+00:00",
    "fecha_vencimiento": "2027-10-15T03:00:00+00:00",
    "fecha_modificacion": "2026-10-15T21:11:55+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 1.0787
   },
   "a3:-995": {
@@ -6877,7 +6877,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-16T18:58:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610161853-fideicomiso-financiero-aysa-i": {
@@ -6915,7 +6915,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-16T18:53:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610161845-amfays-serie-45": {
@@ -6953,7 +6953,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-16T18:45:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610161845-amfays-serie-46": {
@@ -6991,7 +6991,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-16T18:45:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "a3:-997": {
@@ -7029,7 +7029,7 @@
    "fecha_liquidacion": "2026-10-20T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-19T22:19:58+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": null
   },
   "a3:-998": {
@@ -7067,7 +7067,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2029-10-22T03:00:00+00:00",
    "fecha_modificacion": "2026-10-19T22:19:57+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 3.0007
   },
   "cnv:3581770": {
@@ -7181,7 +7181,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-19T20:59:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "a3:-936": {
@@ -7219,7 +7219,7 @@
    "fecha_liquidacion": "2026-10-16T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-15T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:50:51+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.2491
   },
   "a3:-937": {
@@ -7257,7 +7257,7 @@
    "fecha_liquidacion": "2026-10-23T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-30T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:52:47+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.104
   },
   "a3:-939": {
@@ -7295,7 +7295,7 @@
    "fecha_liquidacion": "2026-10-23T03:00:00+00:00",
    "fecha_vencimiento": "2027-06-30T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:52:44+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.6845
   },
   "a3:-699": {
@@ -7333,7 +7333,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2028-06-23T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:31:09+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 1.6701
   },
   "a3:-977": {
@@ -7371,7 +7371,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-19T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:31:42+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.0767
   },
   "a3:-985": {
@@ -7409,7 +7409,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2026-12-17T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:32:40+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.1533
   },
   "a3:-986": {
@@ -7447,7 +7447,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-21T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:33:41+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.2491
   },
   "a3:-987": {
@@ -7485,7 +7485,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2027-03-18T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:37:43+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.4025
   },
   "a3:-988": {
@@ -7523,7 +7523,7 @@
    "fecha_liquidacion": "2026-10-22T03:00:00+00:00",
    "fecha_vencimiento": "2027-04-22T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:37:46+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.4983
   },
   "a3:-1000": {
@@ -7561,7 +7561,7 @@
    "fecha_liquidacion": "2026-10-23T03:00:00+00:00",
    "fecha_vencimiento": "2027-10-23T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:23:18+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-1001": {
@@ -7599,7 +7599,7 @@
    "fecha_liquidacion": "2026-10-23T03:00:00+00:00",
    "fecha_vencimiento": "2028-10-23T03:00:00+00:00",
    "fecha_modificacion": "2026-10-20T21:15:49+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "cnv:3582773": {
@@ -7713,7 +7713,7 @@
    "fecha_liquidacion": "2026-10-27T03:00:00+00:00",
    "fecha_vencimiento": "2030-04-14T03:00:00+00:00",
    "fecha_modificacion": "2026-10-23T17:41:02+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 3.4634
   },
   "a3:-1004": {
@@ -7751,7 +7751,7 @@
    "fecha_liquidacion": "2026-10-28T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-11T14:46:15+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": null
   },
   "cnv:3583384": {
@@ -7827,7 +7827,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-23T19:48:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610231946-fideicomiso-financiero-aysa-i": {
@@ -7865,7 +7865,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-23T19:46:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610261503-fideicomiso-financiero-total-assets-vi": {
@@ -7903,7 +7903,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-26T15:03:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202610261503-fideicomiso-financiero-total-assets-vii": {
@@ -7941,7 +7941,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-26T15:03:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:3584238": {
@@ -8017,7 +8017,7 @@
    "fecha_liquidacion": "2026-10-29T03:00:00+00:00",
    "fecha_vencimiento": "2028-10-29T03:00:00+00:00",
    "fecha_modificacion": "2026-10-27T21:46:27+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-1005": {
@@ -8055,7 +8055,7 @@
    "fecha_liquidacion": "2026-10-29T03:00:00+00:00",
    "fecha_vencimiento": "2028-05-01T03:00:00+00:00",
    "fecha_modificacion": "2026-11-03T15:10:44+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 1.5058
   },
   "a3:-1006": {
@@ -8093,7 +8093,7 @@
    "fecha_liquidacion": "2026-10-29T03:00:00+00:00",
    "fecha_vencimiento": "2028-05-01T03:00:00+00:00",
    "fecha_modificacion": "2026-10-27T21:19:22+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 1.5058
   },
   "a3:-1017": {
@@ -8131,7 +8131,7 @@
    "fecha_liquidacion": "2026-10-28T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-27T21:14:24+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": null
   },
   "a3:-1020": {
@@ -8169,7 +8169,7 @@
    "fecha_liquidacion": "2026-10-29T03:00:00+00:00",
    "fecha_vencimiento": "2028-10-29T03:00:00+00:00",
    "fecha_modificacion": "2026-10-27T21:20:21+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-809": {
@@ -8207,7 +8207,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2027-08-31T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T21:01:36+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.835
   },
   "a3:-931": {
@@ -8245,7 +8245,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2028-12-15T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T21:01:38+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.1273
   },
   "a3:-1008": {
@@ -8283,7 +8283,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-10-28T20:28:34+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": null
   },
   "a3:-1010": {
@@ -8321,7 +8321,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-26T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T20:51:09+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.3258
   },
   "a3:-1011": {
@@ -8359,7 +8359,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2027-03-31T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T20:54:54+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.4162
   },
   "a3:-1012": {
@@ -8397,7 +8397,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2027-10-29T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T20:57:26+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.9966
   },
   "a3:-1013": {
@@ -8435,7 +8435,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-15T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T21:10:24+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.2108
   },
   "a3:-1018": {
@@ -8473,7 +8473,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2026-11-03T03:00:00+00:00",
    "fecha_modificacion": "2026-10-28T21:58:44+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.011
   },
   "a3:-1019": {
@@ -8511,7 +8511,7 @@
    "fecha_liquidacion": "2026-10-30T03:00:00+00:00",
    "fecha_vencimiento": "2027-10-30T03:00:00+00:00",
    "fecha_modificacion": "2026-10-29T21:31:59+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-1021": {
@@ -8549,7 +8549,7 @@
    "fecha_liquidacion": "2026-11-02T03:00:00+00:00",
    "fecha_vencimiento": "2030-11-02T03:00:00+00:00",
    "fecha_modificacion": "2026-10-29T13:35:57+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 4.0
   },
   "a3:-1009": {
@@ -8587,7 +8587,7 @@
    "fecha_liquidacion": "2026-11-03T03:00:00+00:00",
    "fecha_vencimiento": "2029-11-03T03:00:00+00:00",
    "fecha_modificacion": "2026-10-29T21:51:22+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-1027": {
@@ -8625,7 +8625,7 @@
    "fecha_liquidacion": "2026-11-03T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-03T03:00:00+00:00",
    "fecha_modificacion": "2026-10-30T21:09:28+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "cnv:3586889": {
@@ -8701,7 +8701,7 @@
    "fecha_liquidacion": "2026-11-04T03:00:00+00:00",
    "fecha_vencimiento": "2027-11-04T03:00:00+00:00",
    "fecha_modificacion": "2026-11-04T17:08:32+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.9993
   },
   "a3:-1023": {
@@ -8739,7 +8739,7 @@
    "fecha_liquidacion": "2026-11-04T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-04T03:00:00+00:00",
    "fecha_modificacion": "2026-11-04T17:08:43+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-1028": {
@@ -8777,7 +8777,7 @@
    "fecha_liquidacion": "2026-11-04T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-04T03:00:00+00:00",
    "fecha_modificacion": "2026-11-02T20:24:24+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "cnv:202611021216-invernea-proteina-pyme-serie-4": {
@@ -8815,7 +8815,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-02T12:16:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202611021214-invernea-proteina-pyme-serie-3": {
@@ -8853,7 +8853,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-02T12:14:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202611021213-invernea-proteina-pyme-serie-2": {
@@ -8891,7 +8891,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-02T12:13:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202611021212-invernea-proteina-pyme-serie-i": {
@@ -8929,7 +8929,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-02T12:12:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:202611021211-fideicomiso-financiero-invernea-ganadero": {
@@ -8967,7 +8967,7 @@
    "fecha_liquidacion": null,
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-02T12:11:00+00:00",
-   "consultado": "2026-11-16T22:49:12+00:00",
+   "consultado": "2026-11-17T21:38:43+00:00",
    "plazo_anios": null
   },
   "cnv:3588437": {
@@ -9157,7 +9157,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-05T03:00:00+00:00",
    "fecha_modificacion": "2026-11-04T14:46:24+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-1026": {
@@ -9195,7 +9195,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-03T21:21:45+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": null
   },
   "a3:-1030": {
@@ -9233,7 +9233,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": "2029-11-05T03:00:00+00:00",
    "fecha_modificacion": "2026-11-03T21:44:46+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 3.0007
   },
   "a3:-1032": {
@@ -9271,7 +9271,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-06T03:00:00+00:00",
    "fecha_modificacion": "2026-11-03T21:05:49+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0041
   },
   "cnv:3588033": {
@@ -9385,7 +9385,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-05T03:00:00+00:00",
    "fecha_modificacion": "2026-11-03T21:38:53+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-999": {
@@ -9423,7 +9423,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-05T03:00:00+00:00",
    "fecha_modificacion": "2026-11-04T20:18:07+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-1031": {
@@ -9461,7 +9461,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": "2027-11-05T03:00:00+00:00",
    "fecha_modificacion": "2026-11-06T17:49:15+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.9993
   },
   "cnv:3585142": {
@@ -9575,7 +9575,7 @@
    "fecha_liquidacion": "2026-11-05T03:00:00+00:00",
    "fecha_vencimiento": null,
    "fecha_modificacion": "2026-11-04T20:40:09+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": null
   },
   "a3:-1033": {
@@ -9613,7 +9613,7 @@
    "fecha_liquidacion": "2026-11-11T03:00:00+00:00",
    "fecha_vencimiento": "2027-11-05T03:00:00+00:00",
    "fecha_modificacion": "2026-11-05T20:35:05+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.9829
   },
   "a3:-1041": {
@@ -9651,7 +9651,7 @@
    "fecha_liquidacion": "2026-11-11T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-24T03:00:00+00:00",
    "fecha_modificacion": "2026-11-05T20:48:33+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.2875
   },
   "cnv:3591220": {
@@ -9727,7 +9727,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-15T03:00:00+00:00",
    "fecha_modificacion": "2026-11-11T20:42:11+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.1725
   },
   "a3:-1036": {
@@ -9765,7 +9765,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-29T03:00:00+00:00",
    "fecha_modificacion": "2026-11-11T20:25:38+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.2108
   },
   "a3:-1037": {
@@ -9803,7 +9803,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-06-30T03:00:00+00:00",
    "fecha_modificacion": "2026-11-11T20:25:31+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.627
   },
   "a3:-1038": {
@@ -9841,7 +9841,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2028-06-30T03:00:00+00:00",
    "fecha_modificacion": "2026-11-11T20:42:18+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 1.629
   },
   "a3:-1039": {
@@ -9879,7 +9879,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-04-30T03:00:00+00:00",
    "fecha_modificacion": "2026-11-11T20:42:14+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.46
   },
   "cnv:3590701": {
@@ -9993,7 +9993,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-01-15T03:00:00+00:00",
    "fecha_modificacion": "2026-11-12T20:32:33+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.1725
   },
   "a3:-1043": {
@@ -10031,7 +10031,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-02-12T03:00:00+00:00",
    "fecha_modificacion": "2026-11-12T20:30:59+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.2491
   },
   "a3:-1044": {
@@ -10069,7 +10069,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2027-05-14T03:00:00+00:00",
    "fecha_modificacion": "2026-11-12T20:32:29+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.4983
   },
   "a3:-1045": {
@@ -10145,7 +10145,7 @@
    "fecha_liquidacion": "2026-11-13T03:00:00+00:00",
    "fecha_vencimiento": "2026-12-11T03:00:00+00:00",
    "fecha_modificacion": "2026-11-12T20:53:44+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 0.0767
   },
   "a3:-1034": {
@@ -10183,7 +10183,7 @@
    "fecha_liquidacion": "2026-11-16T03:00:00+00:00",
    "fecha_vencimiento": "2028-11-16T03:00:00+00:00",
    "fecha_modificacion": "2026-11-12T21:16:11+00:00",
-   "consultado": "2026-11-16T22:48:57+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
    "plazo_anios": 2.0014
   },
   "a3:-1047": {
@@ -10261,6 +10261,386 @@
    "fecha_modificacion": "2026-11-16T21:05:29+00:00",
    "consultado": "2026-11-16T22:48:57+00:00",
    "plazo_anios": 4.0
+  },
+  "a3:-1049": {
+   "id": -1049,
+   "fuente": "a3",
+   "clave": "a3:-1049",
+   "enlace": "",
+   "titulo": "TÍTULOS DE DEUDA PÚBLICA DE LA PROVINCIA DE BUENOS AIRES A CUPÓN DE INTERÉS VARIABLE CON VTO. 26/08/2027 - NUEVO",
+   "emisor": "GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 25000000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "EL MONTO MAXIMO AUTORIZADO",
+   "valor_corte": "MARGEN DE CORTE: %",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "MARGEN",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+   "liquidador": "Clear",
+   "rueda": "BSAS",
+   "modalidad": "Ciega",
+   "observaciones": "Los Títulos podrán ser integrados en efectivo y/o en especie",
+   "fecha_inicio": "2026-11-17T14:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2027-08-26T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T18:40:18+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 0.7666
+  },
+  "a3:-1050": {
+   "id": -1050,
+   "fuente": "a3",
+   "clave": "a3:-1050",
+   "enlace": "",
+   "titulo": "LETRAS DEL TESORO DE LA PROVINCIA DE BUENOS AIRES EN PESOS A DTO. CON VTO. 17/12/2026 (LBD26) − REAPERTURA",
+   "emisor": "GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 2500000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "EL MONTO MAXIMO AUTORIZADO",
+   "valor_corte": "PRECIO DE CORTE:",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "PRECIO",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+   "liquidador": "Clear",
+   "rueda": "BSAS",
+   "modalidad": "Ciega",
+   "observaciones": "Las Letras deberán ser Integradas en Efectivo y/o en Especie.",
+   "fecha_inicio": "2026-11-17T14:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2026-12-17T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T18:40:07+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 0.0767
+  },
+  "a3:-1051": {
+   "id": -1051,
+   "fuente": "a3",
+   "clave": "a3:-1051",
+   "enlace": "",
+   "titulo": "LETRAS DEL TESORO DE LA PROVINCIA DE BUENOS AIRES EN PESOS A DTO. CON VTO. 21/01/2027 − NUEVA",
+   "emisor": "GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 2500000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "EL MONTO MAXIMO AUTORIZADO",
+   "valor_corte": "PRECIO DE CORTE:",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "PRECIO",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+   "liquidador": "Clear",
+   "rueda": "BSAS",
+   "modalidad": "Ciega",
+   "observaciones": "Las Letras deberán ser Integradas en Efectivo y/o en Especie.",
+   "fecha_inicio": "2026-11-17T14:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2027-01-21T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T18:44:20+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 0.1725
+  },
+  "a3:-1052": {
+   "id": -1052,
+   "fuente": "a3",
+   "clave": "a3:-1052",
+   "enlace": "",
+   "titulo": "LETRAS DEL TESORO DE LA PROVINCIA DE BUENOS AIRES EN PESOS AJUSTABLES POR CER CON VTO. 18/03/2027 (XBM27) - REAPERTURA",
+   "emisor": "GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 2500000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "EL MONTO MAXIMO AUTORIZADO",
+   "valor_corte": "PRECIO DE CORTE:",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "PRECIO",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+   "liquidador": "Clear",
+   "rueda": "BSAS",
+   "modalidad": "Ciega",
+   "observaciones": "Las Letras deberán ser Integradas en Efectivo y/o en Especie.",
+   "fecha_inicio": "2026-11-17T14:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2027-03-18T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T18:40:03+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 0.3258
+  },
+  "a3:-1053": {
+   "id": -1053,
+   "fuente": "a3",
+   "clave": "a3:-1053",
+   "enlace": "",
+   "titulo": "LETRAS DEL TESORO DE LA PROVINCIA DE BUENOS AIRES EN PESOS A CUPÓN DE INTERÉS VARIABLE CON VTO. 22/04/2027 (BBA27) - REAPERTURA",
+   "emisor": "GOBIERNO DE LA PROVINCIA DE BUENOS AIRES",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 2500000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "EL MONTO MAXIMO AUTORIZADO",
+   "valor_corte": "PRECIO DE CORTE:",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "PRECIO",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
+   "liquidador": "Clear",
+   "rueda": "BSAS",
+   "modalidad": "Ciega",
+   "observaciones": "Las Letras deberán ser Integradas en Efectivo y/o en Especie.",
+   "fecha_inicio": "2026-11-17T14:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2027-04-22T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T18:44:11+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 0.4216
+  },
+  "a3:-1068": {
+   "id": -1068,
+   "fuente": "a3",
+   "clave": "a3:-1068",
+   "enlace": "",
+   "titulo": "COLOCACIÓN DEPÓSITOS PF UVA P/ CRÉDITOS HIPOTECARIOS",
+   "emisor": "Administración Nacional de Seguridad Social (ANSES)",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 200000000000.0,
+   "monto_adjudicado": 200000000000.0,
+   "ampliable_hasta": "NO AMPLIABLE",
+   "valor_corte": "TRAMO 5 AÑOS: SPREAD P.P. DE 4.79%",
+   "tasa_corte": 4.79,
+   "desierta": false,
+   "variable_licitar": "UVA + SPREAD",
+   "sistema_adjudicacion": "Precios Múltiples",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BCRA",
+   "liquidador": "CRYL",
+   "rueda": "LIC2",
+   "modalidad": "Ciega",
+   "observaciones": "Licitación de depósitos a plazo fijo ajustable por UVA más spread cuyos fondos estarán destinados exclusivamente al otorgamiento de créditos hipotecarios.",
+   "fecha_inicio": "2026-11-17T14:00:00+00:00",
+   "fecha_fin": "2026-11-17T18:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": null,
+   "fecha_modificacion": "2026-11-17T21:16:10+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": null
+  },
+  "a3:-1040": {
+   "id": -1040,
+   "fuente": "a3",
+   "clave": "a3:-1040",
+   "enlace": "",
+   "titulo": "CONVERSIÓN LETRA DEL TESORO NACIONAL VINCULADA AL DÓLAR ESTADOUNIDENSE CERO CUPÓN CON VTO. 30/11/2026 (D30N6) X (D29E7)",
+   "emisor": "MINISTERIO DE ECONOMÍA",
+   "tipo": "Pública",
+   "categoria": "Deuda Publica",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 1.0,
+   "monto_adjudicado": 2875117882.0,
+   "ampliable_hasta": "El monto máximo autorizado por la normativa vigente.",
+   "valor_corte": "PRECIO DE CORTE POR CADA VNO USD 1.000: USD 992.33",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "PRECIO",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "MINISTERIO DE ECONOMÍA",
+   "liquidador": "CRYL",
+   "rueda": "LIC3",
+   "modalidad": "Ciega",
+   "observaciones": "La Secretaría de Finanzas invita a los tenedores de la LETRA DÓLAR LINKED con vencimiento 30 de Noviembre de 2026 (D30N6), a participar de una operación de conversión. La licitación será con un único pliego competitivo. Los participantes deberán indicar la cantidad de VNO en Dólares Estadounidenses y el Precio en Dólares Estadounidenses por cada VNO USD 1.000 con dos decimales de la LELINK D29E7.",
+   "fecha_inicio": "2026-11-17T13:00:00+00:00",
+   "fecha_fin": "2026-11-17T18:00:00+00:00",
+   "fecha_liquidacion": "2026-11-20T03:00:00+00:00",
+   "fecha_vencimiento": "2027-01-29T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T20:40:54+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 0.1916
+  },
+  "a3:-1046": {
+   "id": -1046,
+   "fuente": "a3",
+   "clave": "a3:-1046",
+   "enlace": "",
+   "titulo": "ON BAJO IMPACTO INGACOT COMERCIAL SERIE I",
+   "emisor": "INGACOT COMERCIAL S.A.",
+   "tipo": "Privada - ON/VCP BAJO IMPACTO",
+   "categoria": "ON PyME CNV",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "ARS PESOS",
+   "moneda_monto": "ARS PESOS",
+   "moneda_clase": "ARS",
+   "monto_licitar": 2000000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "4000000000",
+   "valor_corte": "MARGEN DE CORTE: 2.00%",
+   "tasa_corte": 2.0,
+   "desierta": false,
+   "variable_licitar": "MARGEN",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "1.46 AÑOS",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
+   "liquidador": "Clear",
+   "rueda": "OBI2",
+   "modalidad": "Abierta",
+   "observaciones": "Las Obligaciones Negociables Serie I serán Suscriptas, Integradas y Pagaderas en Pesos",
+   "fecha_inicio": "2026-11-17T13:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2028-11-19T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-17T20:30:15+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 2.0014
+  },
+  "a3:-1058": {
+   "id": -1058,
+   "fuente": "a3",
+   "clave": "a3:-1058",
+   "enlace": "",
+   "titulo": "FF MEDIANO IMPACTO AMPLIADO TELLURIA SERIE I",
+   "emisor": "BANCO COMAFI S.A.",
+   "tipo": "Privada – FF MEDIANO IMPACTO",
+   "categoria": "Fideicomiso Financiero",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "USD",
+   "moneda_monto": "USD",
+   "moneda_clase": "USD",
+   "monto_licitar": 9548071.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "NO AMPLIABLE",
+   "valor_corte": "PRECIO DE CORTE: VDF / CP",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "PRECIO",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO COMAFI S.A.",
+   "liquidador": "Clear",
+   "rueda": "FMI1",
+   "modalidad": "Abierta",
+   "observaciones": "Se ofrecen Valores Fiduciarios por los siguientes V/N: VDF US$ 7.200.000 / CP US$ 2.348.071",
+   "fecha_inicio": "2026-11-17T13:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:00:00+00:00",
+   "fecha_liquidacion": "2026-11-20T03:00:00+00:00",
+   "fecha_vencimiento": null,
+   "fecha_modificacion": "2026-11-17T20:30:20+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": null
+  },
+  "a3:-1063": {
+   "id": -1063,
+   "fuente": "a3",
+   "clave": "a3:-1063",
+   "enlace": "",
+   "titulo": "ON BAJO IMPACTO ELCOR SERIE I",
+   "emisor": "ELCOR S.A.",
+   "tipo": "Privada - ON/VCP BAJO IMPACTO",
+   "categoria": "ON PyME CNV",
+   "estado": "Activa",
+   "estado_cod": "A",
+   "moneda": "USD",
+   "moneda_monto": "USD",
+   "moneda_clase": "USD",
+   "monto_licitar": 2000000.0,
+   "monto_adjudicado": 3000000000.0,
+   "ampliable_hasta": "NO AMPLIABLE",
+   "valor_corte": "TASA DE CORTE: %",
+   "tasa_corte": null,
+   "desierta": false,
+   "variable_licitar": "TASA",
+   "sistema_adjudicacion": "Holandés",
+   "duration": "",
+   "plazo_especie": "",
+   "industria": "",
+   "colocador": "BANCO SUPERVIELLE S.A. BANCO MARIVA S.A. BANCO DE LA PROVINCIA DE CORDOBA S.A. BANCO CMF S.A. BECERRA BURSÁTIL S.A.",
+   "liquidador": "Clear",
+   "rueda": "OBI1",
+   "modalidad": "Abierta",
+   "observaciones": "Las Obligaciones Negociables Serie I serán Suscriptas, Integradas y Pagaderas en Dólares Estadounidenses en la República Argentina (Dólar Mep)",
+   "fecha_inicio": "2026-11-17T13:00:00+00:00",
+   "fecha_fin": "2026-11-17T19:30:00+00:00",
+   "fecha_liquidacion": "2026-11-19T03:00:00+00:00",
+   "fecha_vencimiento": "2029-05-19T03:00:00+00:00",
+   "fecha_modificacion": "2026-11-16T16:28:19+00:00",
+   "consultado": "2026-11-17T21:38:30+00:00",
+   "plazo_anios": 2.4969
   }
  }
 }
